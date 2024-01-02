@@ -775,6 +775,10 @@ button:hover {
   margin-bottom: 8px;
 }
 
+.okno-modalne-form-div-comment {
+  margin-bottom: 16px;
+}
+
 .modal-label {
   font-size: 12px;
   line-height: 1.17;
