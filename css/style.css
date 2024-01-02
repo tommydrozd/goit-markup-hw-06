@@ -872,9 +872,13 @@ button:hover {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-label-svg:focus,
-.modal-textarea:focus {
+.form-label-svg:focus {
   fill: #4d5ae5;
+}
+
+.modal-textarea:focus {
+  outline: none;
+  border-color: #4d5ae5;
 }
 
 .modal-textarea {
