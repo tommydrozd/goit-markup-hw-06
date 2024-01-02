@@ -872,8 +872,8 @@ button:hover {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-label-svg:focus {
-  fill: #4d5ae5;
+.okno-modalne-form-div:focus-within .form-label-svg {
+  fill: var(--iris);
 }
 
 .modal-textarea:focus {
@@ -895,4 +895,32 @@ button:hover {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.okno-modalne-privacy {
+  margin-bottom: 24px;
+}
+
+.modal-input-privacy {
+}
+
+.modal-label-privacy {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--customer-logo);
+}
+
+.modal-label-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
