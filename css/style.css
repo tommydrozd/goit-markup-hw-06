@@ -660,8 +660,6 @@ button:hover {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   padding: 72px 24px 24px 24px;
-
-  gap: 24px;
 }
 
 .button-modal {
@@ -801,7 +799,7 @@ button:hover {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-label:focus {
+.-modal-label-input:active {
   border-color: #4d5ae5;
 }
 
@@ -819,6 +817,7 @@ button:hover {
 
 .form {
   display: flex;
+  gap: 24px;
 }
 
 .form-label {
