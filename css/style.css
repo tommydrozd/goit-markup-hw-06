@@ -769,6 +769,8 @@ button:hover {
 }
 
 .okno-modalne-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .okno-modalne-form-div {
