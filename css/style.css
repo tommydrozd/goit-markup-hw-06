@@ -903,7 +903,7 @@ button:hover {
   margin-bottom: 24px;
 }
 
-.modal-input-privacy:checked + .modal-label-privacy .model-label-span {
+.modal-input-privacy:checked + .modal-label-privacy .modal-label-span {
 background: var(--ocean);
 border: none;
 fill: var(--background-color2);
